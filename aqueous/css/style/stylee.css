@@ -1,0 +1,267 @@
+@import url(http://fonts.googleapis.com/css?family=Abel|Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
+/* 191212, Марија Милковска */
+
+/* Your code goes here */
+
+body {
+    text-align: center;
+    font-family: Abel;
+    background-image: url("../../images/img03.jpg");
+    margin: 0;
+    width: 1600px;
+    height: 2100px;
+    color: gray;
+}
+
+#header-wrapper {
+    position: relative;
+}
+
+header {
+    background-image: url("../../images/img01.jpg");
+    width: 1600px;
+    height: 200px;
+    position: relative;
+    top: -25px;
+    border-bottom: 2px solid ;
+}
+
+#logo h1 {
+    position: relative;
+    top: 30px;
+    left: -10px;
+}
+
+#logo h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+ul * {
+    list-style-type: none;
+}
+
+#logo p {
+    position: relative;
+    left: -10px;
+    top: 7px;
+}
+
+#menu-wrapper {
+    background-image: url("../../images/img05.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 155px;
+    top: 11px;
+}
+
+#menu .mobileUI-site-nav ul li {
+    display: inline-block;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    left: -190px;
+    top: 15px;
+    padding: 10px;
+}
+
+#menu .mobileUI-site-nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+#menu .mobileUI-site-nav ul li a:hover {
+    background-image: url("../../images/img01.jpg");
+    color: white;
+}
+
+#page-wrapper {
+    background-color: white;
+    width: 1200px;
+    height: 1700px;
+    position: relative;
+    left: 175px;
+    top: -30px;
+}
+
+#content {
+    float: left;
+    width: 60%;
+}
+
+#sidebar {
+    float: left;
+    width: 35%;
+}
+
+.row .divider {
+    clear: both;
+
+} 
+
+#content h2 {
+    background-image: url("../../images/pics02.jpg");
+    width: 700px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    padding-top: 50px;
+}
+
+#content .subtitle {
+    position: relative;
+    margin-top: -55px;
+}
+
+#content > p {
+    position: relative;
+    top: 70px;
+    text-align: left;
+    left: 25px;
+}
+
+h2 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    color: black;
+    font-weight: normal;
+}
+
+#sidebar h2 {
+    position: relative;
+    left: 10px;
+}
+
+#sidebar ul li {
+    text-align: left;
+    padding-left: 60px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: gray;
+    text-align: left;
+}
+
+#sidebar ul li a:hover {
+    text-decoration: none;
+    color: rgb(78, 160, 228);
+    text-align: left;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#sidebar .style1 li .date {
+    display: flex;
+    flex-direction: column;
+}
+
+#content .button-style {
+    text-transform: uppercase;
+    background-image: url("../../images/img01.jpg");
+    width: 150px;
+    height: 40px;
+    
+}
+
+#content .button-style a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 14px;
+    font-weight: normal;
+}
+
+#content .button-style a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#onecolumn {
+    margin-top: 70px;
+    background-image: url("../../images/pics03.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+    height: 600px;  
+}
+
+#footer-content {
+   background-image: url("../../images/img09.jpg");
+   position: relative;
+   top: -260px;
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+}
+
+h2  {
+    text-transform: uppercase;
+    color: rgb(78, 160, 228);
+}
+
+#box1, #box2, #box3 {
+    text-align: left;
+}
+
+#box1 a, #box2 a, #box3 a {
+    text-decoration: none;
+    color: grey;
+} 
+
+#box1 h2, #box2 h2, #box3 h2 {
+    text-align: left;
+    font-weight: normal;
+    position: relative;
+    left: 30px;
+}
+
+#copyright {
+    background-image: url("../../images/img01.jpg");
+    width: 1600px;
+    height: 120px; 
+    position: relative;
+    top: -140px; 
+}
+
+#copyright section {
+    background-image: url("../../images/img09.jpg");
+    position: relative;
+    left: 176px;
+    width: 1200px;
+}
+
+#copyright section p {
+    position: relative;
+    top: 40px;
+    color: white;
+}
+
+#copyright section p a {
+    color: white;
+}
+
+#logo p {
+    color: white;
+}
+
+#box2 section ul li p a:hover, #box3 section ul li a:hover {
+    text-decoration: underline;
+    color: rgb(78, 160, 228);
+}
+
+
